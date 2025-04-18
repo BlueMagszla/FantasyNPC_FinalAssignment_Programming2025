@@ -1,0 +1,1223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &88031091019301953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 23564966449839383}
+  m_Layer: 0
+  m_Name: piglin_geo:Spine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &23564966449839383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88031091019301953}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1.5777218e-30, z: 2.0041997e-29, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0021533216, z: 1.0864043e-12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2924933064029415775}
+  - {fileID: 2811923184234046758}
+  - {fileID: 7912696410002032127}
+  m_Father: {fileID: 7660620312738771473}
+  m_LocalEulerAnglesHint: {x: 1.934914, y: -0.06955172, z: 0.56668967}
+--- !u!1 &747867825629622162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2924933064029415775}
+  m_Layer: 0
+  m_Name: piglin_geo:LeftShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2924933064029415775
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747867825629622162}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.49906352, y: -0.5009615, z: 0.49928126, w: 0.500691}
+  m_LocalPosition: {x: -0.0009421499, y: 0.002313528, z: 0.00000085395897}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2093353532162267485}
+  m_Father: {fileID: 23564966449839383}
+  m_LocalEulerAnglesHint: {x: 81.510284, y: 94.84527, z: -172.20584}
+--- !u!1 &951013726476310608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8823465102349798753}
+  m_Layer: 0
+  m_Name: piglin_geo:LeftForeArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8823465102349798753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951013726476310608}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000001934097, y: 0.70897734, z: 0.00000038172297, w: 0.7052313}
+  m_LocalPosition: {x: -8.8140636e-14, y: 0.00435878, z: 5.143585e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6734909256839224323}
+  m_Father: {fileID: 2093353532162267485}
+  m_LocalEulerAnglesHint: {x: 27.038372, y: 98.38259, z: 2.1380458}
+--- !u!1 &1069471103868332699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7660620312738771473}
+  m_Layer: 0
+  m_Name: piglin_geo:Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7660620312738771473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069471103868332699}
+  serializedVersion: 2
+  m_LocalRotation: {x: 2.3575552e-26, y: -3.4538947e-14, z: 6.825788e-13, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0018841556, z: -5.2189367e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 23564966449839383}
+  m_Father: {fileID: 4817289358092927973}
+  m_LocalEulerAnglesHint: {x: 1.4949181, y: 0.79568756, z: 0.55872816}
+--- !u!1 &1100289761194832761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2391764124325887629}
+  m_Layer: 0
+  m_Name: piglin_geo:RightHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2391764124325887629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100289761194832761}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000022446572, y: -0.0008414984, z: -0.0000004533749, w: 0.99999964}
+  m_LocalPosition: {x: -6.449285e-14, y: 0.0024320101, z: -1.955002e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7630894496876640890}
+  m_Father: {fileID: 2134223078362977634}
+  m_LocalEulerAnglesHint: {x: 6.26519, y: -41.3612, z: 0.38839823}
+--- !u!1 &1237525419798504223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4327219536452184771}
+  m_Layer: 0
+  m_Name: piglin_geo:RightLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4327219536452184771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237525419798504223}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.10851963, y: -0.0073833535, z: 0.10451968, w: 0.98855686}
+  m_LocalPosition: {x: -6.5712767e-13, y: 0.0047315997, z: -1.9170218e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1904000573748192531}
+  m_Father: {fileID: 1523853849474367559}
+  m_LocalEulerAnglesHint: {x: -36.352364, y: -4.4455967, z: 16.867485}
+--- !u!1 &1250009058846539902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6734909256839224323}
+  m_Layer: 0
+  m_Name: piglin_geo:LeftHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6734909256839224323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250009058846539902}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000027156278, y: 0.0001962494, z: 0.00000017696026, w: 1}
+  m_LocalPosition: {x: -3.1679325e-13, y: 0.0024318632, z: -8.819083e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4044002637962668477}
+  m_Father: {fileID: 8823465102349798753}
+  m_LocalEulerAnglesHint: {x: -4.605408, y: 5.5766034, z: -1.9043643}
+--- !u!1 &1300076546758498162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6250129800952648201}
+  m_Layer: 0
+  m_Name: piglin_geo:RightToeBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6250129800952648201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300076546758498162}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.007222143, y: 0.000017466096, z: -0.0024166964, w: 0.99997103}
+  m_LocalPosition: {x: 2.4044218e-11, y: 0.0019188422, z: 9.513991e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8696546752400510964}
+  m_Father: {fileID: 1904000573748192531}
+  m_LocalEulerAnglesHint: {x: -0.82753724, y: 0.0040501845, z: -0.2769784}
+--- !u!1 &1338517874663101564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1904000573748192531}
+  m_Layer: 0
+  m_Name: piglin_geo:RightFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1904000573748192531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338517874663101564}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7148476, y: 0.25801072, z: -0.29395524, w: 0.57966685}
+  m_LocalPosition: {x: 6.9363223e-11, y: 0.003786831, z: 6.405156e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6250129800952648201}
+  m_Father: {fileID: 4327219536452184771}
+  m_LocalEulerAnglesHint: {x: 63.5914, y: -147.4891, z: 166.0163}
+--- !u!1 &1671873570509526616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3359371424926236564}
+  m_Layer: 0
+  m_Name: piglin_geo:RightHandIndex4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3359371424926236564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671873570509526616}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.000024352563, y: 0.000014957174, z: -0.0000767083}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2364739928090257420}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1801674658997750411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2364739928090257420}
+  m_Layer: 0
+  m_Name: piglin_geo:RightHandIndex3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2364739928090257420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801674658997750411}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6120068, y: 0.15424563, z: 0.22080317, w: 0.7435738}
+  m_LocalPosition: {x: -0.000030670253, y: 0.00012310313, z: -0.000000034270386}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3359371424926236564}
+  m_Father: {fileID: 8825680180629564162}
+  m_LocalEulerAnglesHint: {x: 75.51795, y: 0.57338834, z: 2.9238439}
+--- !u!1 &2246569130210750907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 618204554496323796}
+  m_Layer: 0
+  m_Name: piglin_geo:RightArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &618204554496323796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2246569130210750907}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0017748019, y: -0.00423325, z: -0.00020948444, w: 0.99998945}
+  m_LocalPosition: {x: -2.4848908e-14, y: 0.001964435, z: 1.8941558e-12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2134223078362977634}
+  m_Father: {fileID: 7912696410002032127}
+  m_LocalEulerAnglesHint: {x: 37.735317, y: 8.100445, z: -2.0978625}
+--- !u!1 &2433325265209706949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2134223078362977634}
+  m_Layer: 0
+  m_Name: piglin_geo:RightForeArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2134223078362977634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2433325265209706949}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000027131492, y: -0.7018625, z: -0.00000017667494, w: 0.71231246}
+  m_LocalPosition: {x: -1.881381e-13, y: 0.0043587903, z: 5.5097524e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2391764124325887629}
+  m_Father: {fileID: 618204554496323796}
+  m_LocalEulerAnglesHint: {x: 56.499752, y: 112.114365, z: -137.883}
+--- !u!1 &2789881167018242947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 801792046606131714}
+  m_Layer: 0
+  m_Name: piglin_geo:HeadTop_End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &801792046606131714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2789881167018242947}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.0022608088, z: 0.00008084649}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6899552399499419921}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2984550996399039858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6607982726175993466}
+  - component: {fileID: 1166866156049817943}
+  m_Layer: 0
+  m_Name: piglin_geo:Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6607982726175993466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2984550996399039858}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3555666434453356258}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1166866156049817943
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2984550996399039858}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 89437928ae968a245a68a8cc5e0d6fed, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -7256310761716532021, guid: bc86c7c327f3105408ed49ccb122c348, type: 3}
+  m_Bones:
+  - {fileID: 7912696410002032127}
+  - {fileID: 618204554496323796}
+  - {fileID: 7660620312738771473}
+  - {fileID: 23564966449839383}
+  - {fileID: 906668464493970309}
+  - {fileID: 1523853849474367559}
+  - {fileID: 2924933064029415775}
+  - {fileID: 2093353532162267485}
+  - {fileID: 2173035467280969237}
+  - {fileID: 6899552399499419921}
+  - {fileID: 2811923184234046758}
+  - {fileID: 2364739928090257420}
+  - {fileID: 2391764124325887629}
+  - {fileID: 7630894496876640890}
+  - {fileID: 8825680180629564162}
+  - {fileID: 4817289358092927973}
+  - {fileID: 4090599810595041656}
+  - {fileID: 6251893170664306898}
+  - {fileID: 4044002637962668477}
+  - {fileID: 6734909256839224323}
+  - {fileID: 4327219536452184771}
+  - {fileID: 1904000573748192531}
+  - {fileID: 6250129800952648201}
+  - {fileID: 8584952802182484513}
+  - {fileID: 1326447091653845292}
+  - {fileID: 281565976759888467}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 906668464493970309}
+  m_AABB:
+    m_Center: {x: -0.0005128016, y: 0.00034953142, z: 0.00041523867}
+    m_Extent: {x: 0.013524413, y: 0.01038561, z: 0.0028232452}
+  m_DirtyAABB: 0
+--- !u!1 &3248475534647546616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1523853849474367559}
+  m_Layer: 0
+  m_Name: piglin_geo:RightUpLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1523853849474367559
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3248475534647546616}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0015998773, y: 0.035906084, z: 0.9982799, w: 0.046318006}
+  m_LocalPosition: {x: 0.0015096662, y: -0.0008942675, z: 0.00008988041}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4327219536452184771}
+  m_Father: {fileID: 906668464493970309}
+  m_LocalEulerAnglesHint: {x: -6.174035, y: 5.855079, z: 176.85556}
+--- !u!1 &3389060481380154798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7630894496876640890}
+  m_Layer: 0
+  m_Name: piglin_geo:RightHandIndex1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7630894496876640890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3389060481380154798}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000006549988, y: 0.006563371, z: -0.0000003646213, w: 0.9999785}
+  m_LocalPosition: {x: 1.1596013e-12, y: 0.0011606778, z: 2.1673006e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8825680180629564162}
+  m_Father: {fileID: 2391764124325887629}
+  m_LocalEulerAnglesHint: {x: 7.4087186, y: -1.0191389, z: 1.266361}
+--- !u!1 &3553737414643512784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8825680180629564162}
+  m_Layer: 0
+  m_Name: piglin_geo:RightHandIndex2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8825680180629564162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3553737414643512784}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000029843722, y: -0.00000001933755, z: -0.123132, w: 0.9923903}
+  m_LocalPosition: {x: -6.064271e-12, y: 0.0005024047, z: 1.2474247e-12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2364739928090257420}
+  m_Father: {fileID: 7630894496876640890}
+  m_LocalEulerAnglesHint: {x: -2.8107135, y: 0.8144974, z: -46.49326}
+--- !u!1 &3857157652764525829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4090599810595041656}
+  m_Layer: 0
+  m_Name: piglin_geo:LeftHandIndex3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4090599810595041656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3857157652764525829}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.28636584, y: 0.20493013, z: -0.49313083, w: 0.7955}
+  m_LocalPosition: {x: -0.00007357274, y: 0.000101388694, z: -0.0000011682575}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2021865559775095051}
+  m_Father: {fileID: 6251893170664306898}
+  m_LocalEulerAnglesHint: {x: 46.679817, y: 17.303251, z: -49.80715}
+--- !u!1 &4465009645955761814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8696546752400510964}
+  m_Layer: 0
+  m_Name: piglin_geo:RightToe_End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8696546752400510964
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4465009645955761814}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.3950325e-11, y: 0.00085511047, z: 3.3985998e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6250129800952648201}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4579646971541365572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6251893170664306898}
+  m_Layer: 0
+  m_Name: piglin_geo:LeftHandIndex2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6251893170664306898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4579646971541365572}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0042014546, y: 0.00000005405153, z: -0.31091124, w: 0.9504297}
+  m_LocalPosition: {x: 2.512429e-12, y: 0.00039968625, z: 3.5605074e-12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4090599810595041656}
+  m_Father: {fileID: 4044002637962668477}
+  m_LocalEulerAnglesHint: {x: 24.483473, y: 5.1609263, z: -12.502215}
+--- !u!1 &4731249183855347274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2811923184234046758}
+  m_Layer: 0
+  m_Name: piglin_geo:Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2811923184234046758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4731249183855347274}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0059307064, y: -1.607521e-22, z: -2.7104578e-20, w: 0.9999824}
+  m_LocalPosition: {x: -0, y: 0.0024224853, z: 7.081613e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6899552399499419921}
+  m_Father: {fileID: 23564966449839383}
+  m_LocalEulerAnglesHint: {x: 11.764473, y: 5.626813, z: 4.5552235}
+--- !u!1 &5032614039986627000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 906668464493970309}
+  m_Layer: 0
+  m_Name: piglin_geo:Hips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &906668464493970309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5032614039986627000}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000007517159, y: 0.0000007384876, z: -0.000009870282, w: 1}
+  m_LocalPosition: {x: 0.000000042360142, y: 0.009321089, z: -0.00017436511}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2173035467280969237}
+  - {fileID: 1523853849474367559}
+  - {fileID: 4817289358092927973}
+  m_Father: {fileID: 3555666434453356258}
+  m_LocalEulerAnglesHint: {x: -8.549713, y: 3.367241, z: 3.4579058}
+--- !u!1 &5150778672776659476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3555666434453356258}
+  - component: {fileID: 1429275871904148697}
+  m_Layer: 0
+  m_Name: UnityPiglin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3555666434453356258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5150778672776659476}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.016, y: -1, z: 0.007}
+  m_LocalScale: {x: 140.86784, y: 140.86784, z: 140.86784}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 906668464493970309}
+  - {fileID: 6607982726175993466}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1429275871904148697
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5150778672776659476}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f311a6e4c6ef39d4684b9a934f6ea9ed, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &5957158025321812692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7912696410002032127}
+  m_Layer: 0
+  m_Name: piglin_geo:RightShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7912696410002032127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5957158025321812692}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.49925148, y: 0.5008284, z: -0.49896806, w: 0.50094897}
+  m_LocalPosition: {x: 0.0009421499, y: 0.0023135385, z: 0.0000017308294}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 618204554496323796}
+  m_Father: {fileID: 23564966449839383}
+  m_LocalEulerAnglesHint: {x: 87.90948, y: 101.936584, z: 17.35865}
+--- !u!1 &6152462666641820935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2173035467280969237}
+  m_Layer: 0
+  m_Name: piglin_geo:LeftUpLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2173035467280969237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6152462666641820935}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.001901855, y: 0.030688945, z: 0.99845445, w: -0.04629513}
+  m_LocalPosition: {x: -0.0015096662, y: -0.0008942675, z: 0.000113411974}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8584952802182484513}
+  m_Father: {fileID: 906668464493970309}
+  m_LocalEulerAnglesHint: {x: -5.345391, y: -14.155377, z: 178.05421}
+--- !u!1 &6541020387625428115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2021865559775095051}
+  m_Layer: 0
+  m_Name: piglin_geo:LeftHandIndex4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2021865559775095051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6541020387625428115}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.000027850032, y: -0.00000929038, z: -0.00002002239}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4090599810595041656}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6746953768647352818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8584952802182484513}
+  m_Layer: 0
+  m_Name: piglin_geo:LeftLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8584952802182484513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6746953768647352818}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.10013105, y: 0.0064500794, z: -0.104361646, w: 0.98946494}
+  m_LocalPosition: {x: 5.545128e-13, y: 0.00473181, z: -2.1713718e-12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1326447091653845292}
+  m_Father: {fileID: 2173035467280969237}
+  m_LocalEulerAnglesHint: {x: -43.095955, y: 4.279136, z: -16.029453}
+--- !u!1 &7272019336769077647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6899552399499419921}
+  m_Layer: 0
+  m_Name: piglin_geo:Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6899552399499419921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7272019336769077647}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -1.3882914e-30, w: 1}
+  m_LocalPosition: {x: -0, y: 0.00039916992, z: 0.00001427431}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 801792046606131714}
+  m_Father: {fileID: 2811923184234046758}
+  m_LocalEulerAnglesHint: {x: 12.44114, y: 5.6408715, z: 4.6236043}
+--- !u!1 &7430973241183285966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4817289358092927973}
+  m_Layer: 0
+  m_Name: piglin_geo:Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4817289358092927973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7430973241183285966}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0059307814, y: -0.00000067993903, z: 0.000009874487, w: 0.9999824}
+  m_LocalPosition: {x: -0, y: 0.0016148769, z: 0.000019155726}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7660620312738771473}
+  m_Father: {fileID: 906668464493970309}
+  m_LocalEulerAnglesHint: {x: 2.487649, y: 0.04760945, z: 5.087732}
+--- !u!1 &7735621358969945996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6047429743297652755}
+  m_Layer: 0
+  m_Name: piglin_geo:LeftToe_End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6047429743297652755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735621358969945996}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.0114362e-11, y: 0.0008676543, z: -2.777214e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 281565976759888467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7930385491297209433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4044002637962668477}
+  m_Layer: 0
+  m_Name: piglin_geo:LeftHandIndex1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4044002637962668477
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7930385491297209433}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000014306626, y: -0.46351, z: 0.00000008659872, w: 0.8860917}
+  m_LocalPosition: {x: 1.0053957e-13, y: 0.0013428668, z: 7.194655e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6251893170664306898}
+  m_Father: {fileID: 6734909256839224323}
+  m_LocalEulerAnglesHint: {x: 19.95629, y: -50.765827, z: 14.56807}
+--- !u!1 &8138101819784390835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 281565976759888467}
+  m_Layer: 0
+  m_Name: piglin_geo:LeftToeBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &281565976759888467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8138101819784390835}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0072178724, y: 0.000020272984, z: -0.0028063732, w: 0.99997}
+  m_LocalPosition: {x: -5.210664e-11, y: 0.0019269002, z: 1.2122353e-12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6047429743297652755}
+  m_Father: {fileID: 1326447091653845292}
+  m_LocalEulerAnglesHint: {x: -0.80325216, y: -0.019569997, z: -0.32168004}
+--- !u!1 &8760290423847197064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1326447091653845292}
+  m_Layer: 0
+  m_Name: piglin_geo:LeftFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1326447091653845292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8760290423847197064}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.71495056, y: -0.25716543, z: 0.28981873, w: 0.58199376}
+  m_LocalPosition: {x: -4.0800918e-11, y: 0.0037800344, z: 2.5562644e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 281565976759888467}
+  m_Father: {fileID: 8584952802182484513}
+  m_LocalEulerAnglesHint: {x: 56.847412, y: 162.3987, z: -153.0389}
+--- !u!1 &8937134841444532388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2093353532162267485}
+  m_Layer: 0
+  m_Name: piglin_geo:LeftArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2093353532162267485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8937134841444532388}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0017689348, y: 0.0067954673, z: -0.00023188986, w: 0.9999753}
+  m_LocalPosition: {x: 2.0497318e-14, y: 0.001964435, z: 1.8942092e-12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8823465102349798753}
+  m_Father: {fileID: 2924933064029415775}
+  m_LocalEulerAnglesHint: {x: 48.778496, y: -5.9069953, z: -3.4111364}
