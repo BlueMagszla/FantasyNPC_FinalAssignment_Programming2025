@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Shade
   - Villager
+  - Bed
+  - Work
   layers:
   - Default
   - TransparentFX
