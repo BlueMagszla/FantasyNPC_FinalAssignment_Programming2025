@@ -11,6 +11,7 @@ public class VillagerBed : MonoBehaviour
     void Start()
     {
         gameObject.tag = "Bed";
+        GameManager.instance.villagerBeds.Add(this);
     }
 
     // Update is called once per frame

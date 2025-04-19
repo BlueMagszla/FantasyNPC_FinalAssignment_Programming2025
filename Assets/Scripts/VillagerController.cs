@@ -1,37 +1,38 @@
-/*Villager Controller Script
- * 
- * Script handles villager animations and assigning a job/bed.
- * 
- * Modified from Professor's lectures
- * Magdalena Szlapczynski
- */
+//ms 2 copy
 
+using NodeCanvas.Framework;
 using UnityEngine;
 
 public class VillagerController : MonoBehaviour
 {
     [SerializeField] private Animator animator;
-    [field: SerializeField] public float ChanceToWalk { get; private set; } = 0.3f;
-    [field: SerializeField] public float WanderDistance { get; private set; } = 7.5f;
-    [field: SerializeField] public float WanderRadius { get; private set; } = 3f;
-    [field: SerializeField] public float AttackRadius { get; private set; } = 1f;
 
     public Transform Target { get; set; }
 
     public GameObject Bed;
     public GameObject Work; //job
+    public float health = 20;
 
-
-    public static readonly int RunParamHash = Animator.StringToHash("isRunning");
-    public static readonly int WorkParamHash = Animator.StringToHash("isWorking");
+    public static readonly int RunParamHash = Animator.StringToHash("isWalking");
+    public static readonly int AttackParamHash = Animator.StringToHash("isAttacking");
+    public static readonly int FallParamHash = Animator.StringToHash("isFalling");
     public static readonly int IdleParamHash = Animator.StringToHash("isIdle");
-    public static readonly int WalkParamHash = Animator.StringToHash("isWalking");
 
+
+    public Blackboard BBref;
 
     public void Start()
     {
-        Bed = GameManager.instance.getRandomBed().Assign().gameObject;
-        Work = GameManager.instance.getRandomJob().Assign().gameObject;
+        //Bed = GameManager.instance.getRandomBed().Assign().gameObject;
+        //Work = GameManager.instance.getRandomJob().Assign().gameObject;
+    }
+
+    public void Update()
+    {
+        if (Bed == null) { Bed = GameManager.instance.getRandomBed().Assign().gameObject; }
+        if (Work == null) { Work = GameManager.instance.getRandomJob().Assign().gameObject; }
+        animator.SetBool("isWalking", (bool)BBref.GetVariable("isWalking", typeof(bool)).value);
+        animator.SetBool("isIdle", (bool)BBref.GetVariable("isIdle", typeof(bool)).value);
     }
 
     public void Awake()

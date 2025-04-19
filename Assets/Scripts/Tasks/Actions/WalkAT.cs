@@ -30,24 +30,27 @@ public class WalkAT : ActionTask
             agent.transform.parent.rotation = Quaternion.Slerp(agent.transform.parent.rotation, desiredRotation, Time.deltaTime);
 
             if (Vector3.Distance(agent.transform.position, na.destination) < na.stoppingDistance)
-                na.ResetPath();
+            {
+                if (Random.value <= zombieController.value.ChanceToWalk)
+                {
+                    SetRandomDestination();
+                }
+                else
+                {
+                    zombieController.value.gameObject.transform.Rotate( new Vector3( 0, Random.value * 360, 0 ), Space.World);
+                    isWalking.value = false;
+                    isIdle.value = true;
+                    EndAction(true);
+                }
+
+            }
         }
         else if (!na.pathPending)
         {
-            if (Random.value > zombieController.value.ChanceToWalk)
-            {
-                isWalking.value = false;
-                isIdle.value = true;
-                EndAction(true);
-            }
-            else
-            {
-                SetRandomDestination();
-            }
+            SetRandomDestination();
         }
         else
         {
-            SetRandomDestination();
         }
     }
 

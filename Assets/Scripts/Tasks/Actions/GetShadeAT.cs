@@ -1,11 +1,4 @@
-/* Getting Shade Action Task
- * 
- * Script handles for zombies to target a spot in the shade.
- * 
- * Magdalena Szlapczynski
- *  Last Modified: Apr.19, 2025
- */
-
+//ms 3
 
 using NodeCanvas.Framework;
 using ParadoxNotion.Serialization.FullSerializer;

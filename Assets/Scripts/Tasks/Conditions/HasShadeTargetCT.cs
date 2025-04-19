@@ -1,11 +1,3 @@
-/* Has Shade Target CT
- * 
- * Script checks for shade tag.
- * 
- * Magdalena Szlapczynski
- *  Last Modified: Apr.19, 2025
- */
-
 using NodeCanvas.Framework;
 using System.Collections;
 using System.Collections.Generic;

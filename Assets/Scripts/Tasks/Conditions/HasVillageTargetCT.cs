@@ -1,10 +1,4 @@
-/* Has Village Target Condition Task
- * 
- * Script checks if target is the village.
- * 
- * Magdalena Szlapczynski
- *  Last Modified: Apr.19, 2025
- */
+//ms
 using NodeCanvas.Framework;
 using UnityEngine;
 

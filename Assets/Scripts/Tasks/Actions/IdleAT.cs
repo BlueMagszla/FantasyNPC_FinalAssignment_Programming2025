@@ -15,11 +15,7 @@ public class IdleAT : ActionTask
 
     protected override void OnExecute()
     {
-        animator.value.SetTrigger(ZombieController.IdleParamHash);
-        if (nextUpdateTime == 0)
-        {
-            nextUpdateTime = Time.time + updateFrequencyInSeconds;
-        }
+        nextUpdateTime = Time.time + updateFrequencyInSeconds;
     }
 
     protected override void OnUpdate()

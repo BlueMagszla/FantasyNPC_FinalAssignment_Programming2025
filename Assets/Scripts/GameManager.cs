@@ -18,20 +18,21 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance;
 
-    public List<VillagerBed> villagerBeds;
-    public List<VillagerWork> villagerJobs;
+    public List<VillagerBed> villagerBeds = new List<VillagerBed>();
+    public List<VillagerWork> villagerJobs = new List<VillagerWork>();
 
     public NavMeshModifierVolume villageArea;
     public NavMeshModifierVolume shadeArea;
 
-
+    private void Awake()
+    {
+        instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        instance = this;
         RenderSettings.skybox = skyboxDay;
-
     }
 
     // Update is called once per frame

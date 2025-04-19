@@ -11,6 +11,7 @@ public class VillagerWork : MonoBehaviour
     void Start()
     {
         gameObject.tag = "Work";
+        GameManager.instance.villagerJobs.Add(this);
     }
 
     // Update is called once per frame

@@ -6,9 +6,14 @@ using UnityEngine;
 public class IsDeadCT : ConditionTask
 {
     public BBParameter<ZombieController> zombieController;
+    public BBParameter<VillagerController> villagerController;
     protected override bool OnCheck()
     {
-        return zombieController.value.health <= 0;
+        if (zombieController.value != null)
+            return zombieController.value.health <= 0;
+        if (villagerController.value != null)
+            return villagerController.value.health <= 0;
+        return true;
     }
 
 }
