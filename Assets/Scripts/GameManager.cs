@@ -60,28 +60,29 @@ public class GameManager : MonoBehaviour
     {
         //get random spot
         Vector3 coords = new Vector3(Random.Range(villageArea.gameObject.transform.position.x - villageArea.size.x / 2, villageArea.gameObject.transform.position.x + villageArea.size.x / 2),
-      villageArea.center.y,
-      Random.Range(villageArea.gameObject.transform.position.z - villageArea.size.z / 2, villageArea.gameObject.transform.position.z + villageArea.size.z / 2));
+                                     villageArea.center.y,
+                                     Random.Range(villageArea.gameObject.transform.position.z - villageArea.size.z / 2, villageArea.gameObject.transform.position.z + villageArea.size.z / 2));
 
         GameObject target = new GameObject("VillageTarget"); //spawn empty on coordinates
         target.transform.position = coords;
+        target.tag = "Village";
         Destroy(target, cycleLength / 2f); //destroy after night passes
 
         return target.transform;  //returning spot transform
     }
-
+    static float test = 0;
     public Transform getShadeTarget() //get random spot in the shade area
     {
+        test++;
         //get random spot
         Vector3 coords = new Vector3(Random.Range(shadeArea.gameObject.transform.position.x - shadeArea.size.x / 2, shadeArea.gameObject.transform.position.x + shadeArea.size.x / 2),
-       shadeArea.center.y,
-       Random.Range(shadeArea.gameObject.transform.position.z - shadeArea.size.z / 2, shadeArea.gameObject.transform.position.z + shadeArea.size.z / 2));
+        shadeArea.center.y,
+        Random.Range(shadeArea.gameObject.transform.position.z - shadeArea.size.z / 2, shadeArea.gameObject.transform.position.z + shadeArea.size.z / 2));
 
         GameObject target = new GameObject("ShadeTarget"); //spawn empty on coordinates
         target.tag = "Shade";
         target.transform.position = coords;
         Destroy(target, cycleLength / 2f); //destroy after day passes
-
         return target.transform;  //returning spot transform
     }
 

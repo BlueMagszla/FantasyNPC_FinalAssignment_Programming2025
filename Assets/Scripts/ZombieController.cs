@@ -2,7 +2,9 @@
 
 using NodeCanvas.BehaviourTrees;
 using NodeCanvas.Framework;
+using UnityEditor.Rendering;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class ZombieController : MonoBehaviour
 {
@@ -14,16 +16,18 @@ public class ZombieController : MonoBehaviour
 
     public Transform Target { get; set; }
 
-    public static readonly int RunParamHash = Animator.StringToHash("Run");
-    public static readonly int AttackParamHash = Animator.StringToHash("Attack");
-    public static readonly int FallParamHash = Animator.StringToHash("Fall");
-    public static readonly int IdleParamHash = Animator.StringToHash("Idle");
+    public static readonly int RunParamHash = Animator.StringToHash("isWalking");
+    public static readonly int AttackParamHash = Animator.StringToHash("isAttacking");
+    public static readonly int FallParamHash = Animator.StringToHash("isFalling");
+    public static readonly int IdleParamHash = Animator.StringToHash("isIdle");
 
     public static readonly string ZombieScreamStateName = "Zombie Scream";
 
     public Blackboard BBref;
 
     public int health = 14; //health to recieve sunlight damage 
+    public float time = 0;
+    
     public void OnValidate()
     {
         ChanceToWalk = Mathf.Clamp01(ChanceToWalk);
@@ -38,6 +42,6 @@ public class ZombieController : MonoBehaviour
     {
         animator.SetBool("isWalking", (bool)BBref.GetVariable("isWalking", typeof(bool)).value);
         animator.SetBool("isIdle", (bool)BBref.GetVariable("isIdle", typeof(bool)).value);
-
+        //print(GetComponent<NavMeshAgent>().destination);
     }
 }

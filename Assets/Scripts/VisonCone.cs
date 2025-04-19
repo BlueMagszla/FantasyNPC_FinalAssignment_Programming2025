@@ -67,8 +67,6 @@ public class VisonCone : MonoBehaviour
                 {
                     zombieController.Target = hit.transform;
                     meshFilter.mesh = null;
-                    print("Villager found");
-                    print(zombieController.Target.name);
                     return;
                 }
 

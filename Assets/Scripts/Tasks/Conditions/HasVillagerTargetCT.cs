@@ -3,12 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IsDeadCT : ConditionTask
+public class HasVillagerTargetCT : ConditionTask
 {
     public BBParameter<ZombieController> zombieController;
+
     protected override bool OnCheck()
     {
-        return zombieController.value.health <= 0;
+        if (zombieController.value.Target != null)
+        {
+            return zombieController.value.Target.tag == "Villager";
+        }
+        return false;
     }
-
 }

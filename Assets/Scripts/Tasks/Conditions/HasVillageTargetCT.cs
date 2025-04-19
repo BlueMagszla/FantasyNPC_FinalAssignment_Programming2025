@@ -1,23 +1,22 @@
-/* Has Target Condition Task
+/* Has Village Target Condition Task
  * 
- * Script handles if the zombie has a target
+ * Script checks if target is the village.
  * 
  * Magdalena Szlapczynski
- * Last Modified: Apr.19, 2025
+ *  Last Modified: Apr.19, 2025
  */
 using NodeCanvas.Framework;
 using UnityEngine;
 
-public class HasTargetCT : ConditionTask
+public class HasVillageTargetCT : ConditionTask
 {
    public BBParameter<ZombieController> zombieController;
-
 
     protected override bool OnCheck()
     {
         if (zombieController.value.Target != null)
         {
-            return zombieController.value.Target.tag != "Shade";
+            return zombieController.value.Target.tag == "Village";
         }
         return false;
     }

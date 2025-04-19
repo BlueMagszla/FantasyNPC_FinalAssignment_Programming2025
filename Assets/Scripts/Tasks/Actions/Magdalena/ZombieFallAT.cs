@@ -23,7 +23,7 @@ public class ZombieFallAT : ActionTask
         isWalking.value = false;
         isIdle.value = false;
         navAgent.value.isStopped = true;
-        zombieAnim.Play(ZombieController.FallParamHash);
+        zombieAnim.SetTrigger(ZombieController.FallParamHash);
         zombieController.value.gameObject.transform.position += new Vector3(0f, -1f, 0f);
 
     }

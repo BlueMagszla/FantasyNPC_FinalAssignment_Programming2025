@@ -34,14 +34,20 @@ public class WalkAT : ActionTask
         }
         else if (!na.pathPending)
         {
-            if (Random.value <= zombieController.value.ChanceToWalk)
-                SetRandomDestination();
-            else
+            if (Random.value > zombieController.value.ChanceToWalk)
             {
                 isWalking.value = false;
                 isIdle.value = true;
                 EndAction(true);
             }
+            else
+            {
+                SetRandomDestination();
+            }
+        }
+        else
+        {
+            SetRandomDestination();
         }
     }
 

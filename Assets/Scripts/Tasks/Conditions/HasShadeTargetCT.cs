@@ -1,6 +1,6 @@
-/*Has Shade Condition Task
+/* Has Shade Target CT
  * 
- * Script handles if the zombie has shade.
+ * Script checks for shade tag.
  * 
  * Magdalena Szlapczynski
  *  Last Modified: Apr.19, 2025
@@ -11,7 +11,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HasShadeCT : ConditionTask
+public class HasShadeTargetCT : ConditionTask
 {
     public BBParameter<ZombieController> zombieController;
 

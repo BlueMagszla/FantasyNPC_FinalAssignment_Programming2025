@@ -15,7 +15,7 @@ public class WalkToAT : ActionTask
 
     private Transform target;
 
-    private float stoppingDistance = 5f;
+    private float stoppingDistance = 0.5f;
 
     protected override void OnExecute()
     {
@@ -59,7 +59,7 @@ public class WalkToAT : ActionTask
     public void playAnimation()
     {
         navAgent.value.isStopped = true;
-        zombieAnim.Play(ZombieController.RunParamHash);
+        zombieAnim.SetTrigger(ZombieController.RunParamHash);
         zombieController.value.gameObject.transform.position += new Vector3(0f, -1f, 0f);
 
     }

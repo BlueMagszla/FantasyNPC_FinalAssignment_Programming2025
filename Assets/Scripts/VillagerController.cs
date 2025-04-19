@@ -1,4 +1,10 @@
-//ms 2 copy
+/*Villager Controller Script
+ * 
+ * Script handles villager animations and assigning a job/bed.
+ * 
+ * Modified from Professor's lectures
+ * Magdalena Szlapczynski
+ */
 
 using UnityEngine;
 
@@ -15,22 +21,17 @@ public class VillagerController : MonoBehaviour
     public GameObject Bed;
     public GameObject Work; //job
 
-    public static readonly int AlertedParamHash = Animator.StringToHash("Alerted");
-    public static readonly int AttackParamHash = Animator.StringToHash("Attack");
-    public static readonly int WalkParamHash = Animator.StringToHash("Walk");
-    public static readonly int IdleParamHash = Animator.StringToHash("Idle");
 
-    public static readonly string ZombieScreamStateName = "Zombie Scream";
+    public static readonly int RunParamHash = Animator.StringToHash("isRunning");
+    public static readonly int WorkParamHash = Animator.StringToHash("isWorking");
+    public static readonly int IdleParamHash = Animator.StringToHash("isIdle");
+    public static readonly int WalkParamHash = Animator.StringToHash("isWalking");
+
 
     public void Start()
     {
         Bed = GameManager.instance.getRandomBed().Assign().gameObject;
         Work = GameManager.instance.getRandomJob().Assign().gameObject;
-    }
-
-    public void OnValidate()
-    {
-        ChanceToWalk = Mathf.Clamp01(ChanceToWalk);
     }
 
     public void Awake()

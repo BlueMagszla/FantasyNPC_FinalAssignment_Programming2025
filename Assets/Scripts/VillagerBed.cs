@@ -10,7 +10,7 @@ public class VillagerBed : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameObject.tag = "Bed";
     }
 
     // Update is called once per frame

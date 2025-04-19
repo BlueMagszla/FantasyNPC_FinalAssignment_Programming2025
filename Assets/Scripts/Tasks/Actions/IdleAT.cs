@@ -1,4 +1,5 @@
 using NodeCanvas.Framework;
+using ParadoxNotion.Serialization.FullSerializer;
 using UnityEngine;
 
 public class IdleAT : ActionTask
@@ -10,19 +11,22 @@ public class IdleAT : ActionTask
 
     public float updateFrequencyInSeconds = 2f;
 
-    private float nextUpdateTime;
+    private float nextUpdateTime = 0;
 
     protected override void OnExecute()
     {
         animator.value.SetTrigger(ZombieController.IdleParamHash);
-        nextUpdateTime = Time.time + updateFrequencyInSeconds;
+        if (nextUpdateTime == 0)
+        {
+            nextUpdateTime = Time.time + updateFrequencyInSeconds;
+        }
     }
 
     protected override void OnUpdate()
     {
         if (Time.time > nextUpdateTime)
         {
-            if (Random.value <= zombieController.value.ChanceToWalk)
+            if (Random.value > zombieController.value.ChanceToWalk)
             {
                 isWalking.value = true;
                 isIdle.value = false;

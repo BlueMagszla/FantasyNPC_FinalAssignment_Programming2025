@@ -1,8 +1,13 @@
-//ms
+/* Script for shade triggers.
+ * 
+ * Script handles if the zombie has entered shade. Sets booleans for when they enter/exit.
+ * 
+ * Magdalena Szlapczynski
+ *  Last Modified: Apr.19, 2025
+ */
 
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class ShadeTrigger : MonoBehaviour

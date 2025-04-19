@@ -1,3 +1,12 @@
+/* Target Village
+ * 
+ * Script handles for zombies to target a spot in the shade.
+ * 
+ * Magdalena Szlapczynski
+ *  Last Modified: Apr.19, 2025
+ */
+
+
 using NodeCanvas.Framework;
 using System.Collections;
 using System.Collections.Generic;
