@@ -9,6 +9,10 @@ public class HasTargetCT : ConditionTask
 
     protected override bool OnCheck()
     {
-        return zombieController.value.Target != null;
+        if (zombieController.value.Target != null)
+        {
+            return zombieController.value.Target.tag != "Shade";
+        }
+        return false;
     }
 }

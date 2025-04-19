@@ -7,7 +7,7 @@ public class WaitForScreamAT : ActionTask
 
     protected override void OnExecute()
     {
-        animator.value.SetTrigger(ZombieController.AlertedParamHash);
+     //   animator.value.SetTrigger(ZombieController.AlertedParamHash);
     }
 
     protected override void OnUpdate()

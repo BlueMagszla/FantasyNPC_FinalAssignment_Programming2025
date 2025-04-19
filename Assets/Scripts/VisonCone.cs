@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[RequireComponent (typeof(MeshRenderer))]
+[RequireComponent(typeof(MeshRenderer))]
 public class VisonCone : MonoBehaviour
 {
     public Material coneMaterial;
@@ -23,12 +23,12 @@ public class VisonCone : MonoBehaviour
     public void Awake()
     {
         coneMesh = new Mesh();
-        
+
         MeshRenderer mr = GetComponent<MeshRenderer>();
         mr.material = coneMaterial;
         mr.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
         mr.receiveShadows = false;
-        
+
         meshFilter = gameObject.AddComponent<MeshFilter>();
 
         coneAngle *= Mathf.Deg2Rad;
@@ -41,7 +41,8 @@ public class VisonCone : MonoBehaviour
 
     public void LateUpdate()
     {
-        if (zombieController.Target == null) CreateConeMesh();
+      //  if (zombieController.Target == null)
+      CreateConeMesh();
     }
 
     private void CreateConeMesh()
@@ -62,10 +63,12 @@ public class VisonCone : MonoBehaviour
             Vector3 rayOrigin = transform.position + transform.up * coneHeight;
             if (Physics.Raycast(rayOrigin, dir, out RaycastHit hit, coneRange, obstructionLayers))
             {
-                if (hit.collider.CompareTag("Player"))
+                if (hit.collider.CompareTag("Villager"))
                 {
                     zombieController.Target = hit.transform;
                     meshFilter.mesh = null;
+                    print("Villager found");
+                    print(zombieController.Target.name);
                     return;
                 }
 
@@ -79,7 +82,7 @@ public class VisonCone : MonoBehaviour
             currentAngle += angleIncrement;
         }
 
-        for(int i = 0, j = 0; i < tris.Length; i += 3, j++)
+        for (int i = 0, j = 0; i < tris.Length; i += 3, j++)
         {
             tris[i] = 0;
             tris[i + 1] = j + 1;

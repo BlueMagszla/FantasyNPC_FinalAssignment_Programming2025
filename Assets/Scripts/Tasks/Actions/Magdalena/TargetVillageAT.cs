@@ -1,15 +1,13 @@
-//ms 3
-
 using NodeCanvas.Framework;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GetShadeAT : ActionTask
+public class TargetVillage : ActionTask
 {
     public BBParameter<ZombieController> zombieController;
     protected override void OnExecute()
     {
-        zombieController.value.Target = GameManager.instance.getShadeTarget(); //get village spot
+        zombieController.value.Target = GameManager.instance.getVillageTarget(); //get village spot
     }
 }

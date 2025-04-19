@@ -1,3 +1,5 @@
+//Professor's Code
+
 using NodeCanvas.Framework;
 using UnityEngine;
 using UnityEngine.AI;
@@ -12,7 +14,7 @@ public class WalkAT : ActionTask
 
     protected override void OnExecute()
     {
-        animator.value.SetTrigger(ZombieController.WalkParamHash);
+        animator.value.SetTrigger(ZombieController.RunParamHash);
         SetRandomDestination();
     }
 

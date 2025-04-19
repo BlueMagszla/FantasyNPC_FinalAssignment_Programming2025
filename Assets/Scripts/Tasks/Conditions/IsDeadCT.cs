@@ -1,15 +1,14 @@
-//ms 3
-
 using NodeCanvas.Framework;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GetShadeAT : ActionTask
+public class IsDeadCT : ConditionTask
 {
     public BBParameter<ZombieController> zombieController;
-    protected override void OnExecute()
+    protected override bool OnCheck()
     {
-        zombieController.value.Target = GameManager.instance.getShadeTarget(); //get village spot
+        return zombieController.value.health < 0;
     }
+
 }

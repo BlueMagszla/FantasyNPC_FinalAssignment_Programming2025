@@ -2,6 +2,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using Unity.AI.Navigation;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -20,7 +21,11 @@ public class GameManager : MonoBehaviour
     public List<VillagerBed> villagerBeds;
     public List<VillagerWork> villagerJobs;
 
-    
+    public NavMeshModifierVolume villageArea;
+    public NavMeshModifierVolume shadeArea;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,7 +56,36 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public VillagerWork getRandomJob()
+    public Transform getVillageTarget() //get random spot in the village area
+    {
+        //get random spot
+        Vector3 coords = new Vector3(Random.Range(villageArea.gameObject.transform.position.x - villageArea.size.x / 2, villageArea.gameObject.transform.position.x + villageArea.size.x / 2),
+      villageArea.center.y,
+      Random.Range(villageArea.gameObject.transform.position.z - villageArea.size.z / 2, villageArea.gameObject.transform.position.z + villageArea.size.z / 2));
+
+        GameObject target = new GameObject("VillageTarget"); //spawn empty on coordinates
+        target.transform.position = coords;
+        Destroy(target, cycleLength / 2f); //destroy after night passes
+
+        return target.transform;  //returning spot transform
+    }
+
+    public Transform getShadeTarget() //get random spot in the shade area
+    {
+        //get random spot
+        Vector3 coords = new Vector3(Random.Range(shadeArea.gameObject.transform.position.x - shadeArea.size.x / 2, shadeArea.gameObject.transform.position.x + shadeArea.size.x / 2),
+       shadeArea.center.y,
+       Random.Range(shadeArea.gameObject.transform.position.z - shadeArea.size.z / 2, shadeArea.gameObject.transform.position.z + shadeArea.size.z / 2));
+
+        GameObject target = new GameObject("ShadeTarget"); //spawn empty on coordinates
+        target.tag = "Shade";
+        target.transform.position = coords;
+        Destroy(target, cycleLength / 2f); //destroy after day passes
+
+        return target.transform;  //returning spot transform
+    }
+
+    public VillagerWork getRandomJob() 
     {
         foreach (var job in villagerJobs) {
             if (!job.isAssigned)

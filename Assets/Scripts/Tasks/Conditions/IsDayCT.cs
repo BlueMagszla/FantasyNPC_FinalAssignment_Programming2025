@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class IsDayCT : ConditionTask
 {
-    public BBParameter<ZombieController> zombieController;
-    //public BBParameter<VillagerController> villagerController;
 
     protected override bool OnCheck()
     {
